@@ -9,7 +9,7 @@ body {
   background-color: rgba (151,244,207,1.0);
 }
 h1, h2, h4 { text-align: center; 
-			 background-image: radial-gradient(cream,white);
+		background-image: radial-gradient(cream,white);
 }
 
 /* unvisited link */
