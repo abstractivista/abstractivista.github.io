@@ -1,0 +1,27 @@
+* { /* Sets the default font and colour for the webpage */
+	font-family: "Helvetica", sans-serif;
+	font-size: 15 px ;
+	color: rgba(5,48,31,1.0) ;
+	margin: 5px;
+}
+
+/* unvisited link */
+a:link {
+  color: rgba (16,154,99, 1.0);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited { color: rgba(16,154,99, 0.5);
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {color: rgba (16,154,99, 1.0);
+  text-decoration: underline;;
+}
+
+/* selected link */
+a:active {color: rgba(16,154,99, 0.5);
+    background-color: lightgrey;
+}
