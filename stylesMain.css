@@ -8,8 +8,8 @@
 body {
   background-color: rgba(151,244,207,1.0);
 }
-h1, h2, h4 { text-align: center; 
-		}
+h1, h2, h4.contactinfo { text-align: center; 
+		background-image:radial-gradient(white, rgba(255,255,193))}
 
 /* unvisited link */
 a:link {
