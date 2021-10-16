@@ -2,14 +2,15 @@
 	font-family: "Helvetica", sans-serif;
 	font-size: 16 px ;
 	color: rgba(5,48,31,1.0) ;
-	margin: 5px;
+	margin: 15px;
 }
 
 body {
   background-color: rgba(151,244,207,1.0);
 }
 h1, h2, h4.contactinfo { text-align: center; 
-		background-image:radial-gradient(white, rgba(255,255,193))}
+		background-image:radial-gradient(white, rgba(255,255,193));
+		padding:0px}
 
 /* unvisited link */
 a:link {
