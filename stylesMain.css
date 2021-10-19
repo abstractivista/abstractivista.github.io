@@ -2,15 +2,17 @@
 	font-family: "Helvetica", sans-serif;
 	font-size: 16 px ;
 	color: rgba(5,48,31,1.0) ;
-	margin: 15px;
+	margin: 5px;
+	border-style: solid;
+	border-width: 15px;
+	border-color: rgba(5,48,31,1.0);
 }
 
 body {
   background-color: rgba(151,244,207,1.0);
 }
 h1, h2, h4.contactinfo { text-align: center; 
-		background-image:radial-gradient(white, rgba(255,255,193));
-		padding:0px}
+		background-image:radial-gradient(white, rgba(255,255,193))}
 
 /* unvisited link */
 a:link {
@@ -25,10 +27,17 @@ a:visited { color: rgba(16,154,99, 0.5);
 
 /* mouse over link */
 a:hover {color: rgba(16,154,99, 1.0);
-  text-decoration: underline;;
+  text-decoration: underline;
 }
 
 /* selected link */
 a:active {color: rgba(16,154,99, 0.5);
     background-color: lightgrey;
 }
+
+figure {
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgba(5,48,31,1.0);
+}
+
