@@ -15,8 +15,8 @@ body {
 }
 h1, h2, h4.contactinfo { text-align: center; 
 		background-image:radial-gradient(white, rgba(255,255,193));
-		margin-right: 10px;
-  margin-left: 10px;}
+		margin-right: 200px;
+		margin-left: 200px;}
 
 /* unvisited link */
 a:link {
