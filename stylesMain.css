@@ -2,7 +2,7 @@
 	font-family: "Helvetica", sans-serif;
 	font-size: 16 px ;
 	color: rgba(5,48,31,1.0) ;
-	margin: 5px;
+	margin: 5px; 
 	
 }
 
@@ -14,7 +14,9 @@ body {
 	margin:auto;
 }
 h1, h2, h4.contactinfo { text-align: center; 
-		background-image:radial-gradient(white, rgba(255,255,193))}
+		background-image:radial-gradient(white, rgba(255,255,193));
+		margin-right: 10px;
+  margin-left: 10px;}
 
 /* unvisited link */
 a:link {
@@ -42,6 +44,6 @@ img {
 	border-width: 5px;
 	border-color: rgba(5,48,31,1.0);
 	margin:auto;
-	padding: 4px
+	align: center;
 }
 
