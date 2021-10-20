@@ -69,11 +69,12 @@ figure
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center; 
   width: auto;
   height: auto;
   }
   
- figure caption 
+ figcaption 
  { font-style:italic;
 			font-size: 6px;
- text-align: center; }
+ }
