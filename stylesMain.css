@@ -63,4 +63,10 @@ img {
 	border-color: rgba(5,48,31,1.0);
 	margin:auto;
 }
-
+/* https://www.w3.org/Style/Examples/007/figures.en.html */
+figure {
+  float: right;
+  text-align: center;
+  font-style: italic;
+  font-size: 6px;
+}
