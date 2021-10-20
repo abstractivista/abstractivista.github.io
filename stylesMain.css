@@ -69,3 +69,8 @@ figure.middle {float: right;
   text-align: center;
   font-style: italic;
   font-size: 6px;}
+  
+figure.left {float:left;
+width:50%;}
+figure.right (float:right;
+width: 50%;}
