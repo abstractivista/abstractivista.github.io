@@ -2,8 +2,8 @@
 /* Sans-serif fonts are supposedly easier to read */
 	font-family: "Helvetica", sans-serif;
 	font-size: 16px ;
-	color: rgba(5,48,31,1.0) ;
-	margin: 5px; 	
+	color: rgba(5,48,31,1.0);
+	margin: 10px;
 }
 		
 /* https://www.w3schools.com/css/css_colors_rgb.asp */
@@ -13,10 +13,14 @@ body {
 	border-width: 50px;
 	border-color: rgba(5,48,31,1.0);
 	margin:auto;
+	outline-style: solid;
+outline-color:rgba(16,154,99, 1.0);
+outline-width:25px;
 }
 /* https://www.w3schools.com/css/css_text.asp */
 
-h1 {font-size:24px;}
+h1 {font-size:24px;
+	padding-top: 20px;}
 
 h1, h2, h4.contactinfo {text-align: center; 
 		margin-right: 250px;
@@ -24,7 +28,7 @@ h1, h2, h4.contactinfo {text-align: center;
 
 /* https://www.w3schools.com/css/css_margin.asp */
 h3, h4, ul {margin-right:100px;
-			margin-left: 100px;
+			margin-left: 75px;
 			margin-bottom: 10px;}
 
 h2, h3 {font-size: 22px;
@@ -35,10 +39,16 @@ h2, h3 {font-size: 22px;
 h3 {font-size: 20px;
 margin-top:15px; margin-bottom: 15px}
 
+
+ul.compact {margin-right: 25px;
+			margin-left:150px;}
+
 li {margin-right: 200px;
 }
 	
-	
+	p {margin-top:15px;
+	margin-bottom: 15px;}
+		
 		
 /* https://www.w3schools.com/css/css_link.asp */
 /* unvisited link */
