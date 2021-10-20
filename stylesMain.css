@@ -69,8 +69,11 @@ figure
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-style:talic;
-  font-size: 6px;
   width: auto;
-  height:auto;
-  text-align: center}
+  height: auto;
+  }
+  
+ figure caption 
+ { font-style:italic;
+			font-size: 6px;
+ text-align: center; }
