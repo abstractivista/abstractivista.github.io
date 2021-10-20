@@ -65,7 +65,7 @@ img {
 }
 /* https://www.w3.org/Style/Examples/007/figures.en.html */
 
-figure.middle { float: right;
+figure.middle {float: right;
   text-align: center;
   font-style: italic;
   font-size: 6px;}
