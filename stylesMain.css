@@ -29,8 +29,8 @@ h2, h3 {font-size: 20px;
 		margin-top:5px;
 		margin-bottom:5px}
 
-/* Wanted to create a single box around all the elements, but not sure how. https://www.w3schools.com/css/css3_gradients_radial.asp */
-h1, h2, h4.contactinfo { text-align: center; 
+/* Wanted to create a single box around all the elements, so applied to header to achieve this: . https://www.w3schools.com/css/css3_gradients_radial.asp */
+header { text-align: center; 
 		background-image:radial-gradient(white, rgba(255,255,193));
 		margin-right: 250px;
 		margin-left: 250px;}
@@ -64,9 +64,8 @@ img {
 	margin:auto;
 }
 /* https://www.w3.org/Style/Examples/007/figures.en.html */
-figure {
-  float: right;
+
+figure.middle { float: right;
   text-align: center;
   font-style: italic;
-  font-size: 6px;
-}
+  font-size: 6px;}
