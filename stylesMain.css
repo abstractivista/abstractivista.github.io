@@ -66,11 +66,11 @@ img {
 /* https://www.w3.org/Style/Examples/007/figures.en.html */
 
 figure.middle {float: right;
-  text-align: center;
-  font-style: italic;
-  font-size: 6px;}
+			   text-align: center;
+				font-style: italic;
+				font-size: 6px;}
   
 figure.left {float:left;
-width:50%;}
-figure.right (float:right;
-width: 50%;}
+				width:50%;}
+figure.right {float: right;
+				width: 50%;}
